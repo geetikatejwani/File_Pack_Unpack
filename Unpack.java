@@ -24,7 +24,7 @@ public class Unpack
  instream.read(Magic,0,Magic.length);
 
  String Magicstr = new String(Magic);
- if(!Magicstr.equals("Madhur123456"))
+ if(!Magicstr.equals("GeetikaAdmin"))
  {
  throw new InvalidFileException("Invalid packed file format");
  }

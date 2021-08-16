@@ -17,7 +17,7 @@ public class Packer
 
  public Packer(String src, String Dest) throws Exception
  {
- String Magic = "Madhur123456";
+ String Magic = "GeetikaAdmin";
  byte arr[] = Magic.getBytes();
  File outfile =new File(Dest);
 
